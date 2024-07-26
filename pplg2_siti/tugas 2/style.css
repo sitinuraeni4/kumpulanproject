@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.img{
+    background: url(img.avif); 
+    height: 100vh;
+    background-size: contain;
+    background-position: center;
+    animation: animate 1s linear infinite;
+}
+
+.mobil {
+    bottom: 0;
+    right: 50%;  
+    width: 30%;
+
+}
+
+@keyframes animate {
+    from {
+        background-position: 0 0; 
+    }
+    to {
+        background-position: 100% 0;
+    }
+}
